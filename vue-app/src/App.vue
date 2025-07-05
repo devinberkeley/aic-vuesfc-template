@@ -5,6 +5,7 @@ import itemJson from './itemDeck.json'
 import * as math from 'mathjs';
 
 // [import components here]
+// 
 // remember to register them in the components property below!
 
 export default {

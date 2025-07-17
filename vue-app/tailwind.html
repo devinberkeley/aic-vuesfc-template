@@ -11,7 +11,7 @@
 <body>
 
     <!-- HTML5 Kitchen sink by @dbox -->
-    <main>
+    <main class="mx-auto">
         <section>
             <hgroup>
                 <h1 class="text-3xl font-bold underline mb-7">h1 HTML5 Kitchen Sink</h1>
@@ -39,12 +39,14 @@
                     <em>emphasis</em>, <strong>strong</strong>, and <small>small</small> but there are many others as
                     well. Hover the following text for abbreviation tag: <abbr title="abbreviation">abbr</abbr>.
                     Similarly, you can use acronym tag like this: <acronym title="For The Win">ftw</acronym>. You can
-                    define <del>deleted text</del> which often gets replaced with <ins>inserted</ins> text.</p>
+                    define <del>deleted text</del> which often gets replaced with <ins>inserted</ins> text.
+                </p>
                 <p>You can also use <kbd>keyboard text</kbd>, which sometimes is styled similarly to the
                     <code>&lt;code&gt;</code> or <samp>samp</samp> tags. Even more specifically, there is a tag just for
                     <var>variables</var>. Not to be mistaken with blockquotes
                     below, the quote tag lets you denote something as <q>quoted text</q>. Lastly don't forget the sub
-                    (H<sub>2</sub>O) and sup (E = MC<sup>2</sup>) tags. </p>
+                    (H<sub>2</sub>O) and sup (E = MC<sup>2</sup>) tags.
+                </p>
             </article>
             <aside>This is an aside.</aside>
             <footer>This is footer for this section</footer>
@@ -306,7 +308,13 @@ pre {
                     <input type="checkbox"> Or check me out
                 </fieldset>
                 <p>
-                    <button type="button" name="button">Button</button>
+                    <button type="button"
+                        class="mt-5 mb-5 ml-3 ml-4 bg-white rounded-md p-3 
+                        border-5 border-solid border-red-200 inline-flex items-center 
+                        justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 
+                        focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        click me out of my misery plzzzz
+                    </button>
                     <input type="button" name="input" value="Input Button">
                     <input type="submit" name="submit" value="Submit Button">
                     <input type="reset" name="reset" value="Reset Button">

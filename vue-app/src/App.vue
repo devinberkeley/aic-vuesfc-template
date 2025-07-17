@@ -15,7 +15,8 @@ export default {
     return {
       hero: heroJson,
       itemDeck: itemJson,
-      monsterDeck: monsterJson
+      monsterDeck: monsterJson,
+      placeholderColor: 'orangered'
     }
   },
   methods: {
@@ -57,9 +58,16 @@ export default {
   </header>
 
   <main>
-    <!-- components here -->
+    <p class="placeholder">[Components go here]</p>
   </main>
 
 </template>
 
-<style scoped></style>
+<style scoped>
+
+.placeholder {
+  color: v-bind(placeholderColor);
+  font-weight: bold;
+}
+
+</style>
